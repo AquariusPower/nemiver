@@ -68,7 +68,7 @@ msgstr ""
 "Project-Id-Version: nemiver master\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nemiver&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-09-28 12:16+0000\n"
+"POT-Creation-Date: 2017-11-02 12:02+0000\n"
 "PO-Revision-Date: 2016-04-10 21:45+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -186,7 +186,7 @@ msgstr ""
 
 #: ../src/main.cc:189
 msgid "Do not set a breakpoint in 'main' and do not run the inferior either"
-msgstr "Sæt ikke et stoppunkt i \"main\", og kør heller ikke den laverestående"
+msgstr "Sæt ikke et stoppunkt i “main”, og kør heller ikke den laverestående"
 
 #: ../src/main.cc:198
 msgid "Show the version number of Nemiver"
@@ -412,7 +412,7 @@ msgstr "Angiv countpunkt"
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2284
 #, c-format
 msgid "%s (path=\"%s\", pid=%i)"
-msgstr "%s (sti=\"%s\", pid=%i)"
+msgstr "%s (sti=“%s”, pid=%i)"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2299
 msgid "Connected to remote target!"
@@ -468,7 +468,7 @@ msgstr "Kør eller genstart målet"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3214
 msgid "Set Breakpoint with Dialog..."
-msgstr "Angiv stoppunkt gennem dialog..."
+msgstr "Angiv stoppunkt gennem dialog …"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3215
 msgid "Set a breakpoint at the current line using a dialog"
@@ -476,7 +476,7 @@ msgstr "Angiv et stoppunkt, på den aktuelle linje, med brug af en dialog"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3226
 msgid "Set Breakpoint..."
-msgstr "Angiv stoppunkt..."
+msgstr "Angiv stoppunkt …"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3227
 msgid "Set a breakpoint at a function or line number"
@@ -532,7 +532,7 @@ msgstr "Angiv/fravælg et countpunkt på den aktuelle markørplacering"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3293
 msgid "Set Watchpoint with Dialog..."
-msgstr "Angiv overvågningspunkt med dialog..."
+msgstr "Angiv overvågningspunkt med dialog …"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3294
 msgid "Set a watchpoint using a dialog"
@@ -726,7 +726,7 @@ msgstr "_Fejlsøg"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3596
 msgid "_Open Source File..."
-msgstr "_Åbn kildetekstfil ..."
+msgstr "_Åbn kildetekstfil …"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3597
 msgid "Open a source file for viewing"
@@ -734,7 +734,7 @@ msgstr "Åbn en kildetekstfil til visning"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3606
 msgid "Load _Executable..."
-msgstr "Indlæs _eksekverbar fil..."
+msgstr "Indlæs _eksekverbar fil …"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3607
 msgid "Execute a program"
@@ -742,7 +742,7 @@ msgstr "Udfør et program"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3617
 msgid "_Load Core File..."
-msgstr "_Indlæs kernefil..."
+msgstr "_Indlæs kernefil …"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3618
 msgid "Load a core file from disk"
@@ -750,7 +750,7 @@ msgstr "Indlæs en kernefil fra disk"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3628
 msgid "_Attach to Running Program..."
-msgstr "_Hægt til kørende program..."
+msgstr "_Hægt til kørende program …"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3629
 msgid "Debug a program that's already running"
@@ -758,7 +758,7 @@ msgstr "Fejlsøg et program som allerede kører"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3639
 msgid "_Connect to Remote Target..."
-msgstr "_Forbind til eksternt mål..."
+msgstr "_Forbind til eksternt mål …"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3640
 msgid "Connect to a debugging server to debug a remote target"
@@ -766,7 +766,7 @@ msgstr "Forbind til en fejlsøgningsserver for at fejlsøge et eksternt mål"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3651
 msgid "Resume Sa_ved Session..."
-msgstr "_Genoptag gemt session..."
+msgstr "_Genoptag gemt session …"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3652
 msgid "Open a previously saved debugging session"
@@ -910,7 +910,7 @@ msgstr "_Sammenfold"
 
 #: ../src/persp/dbgperspective/nmv-file-list.cc:427
 msgid "Loading files from target executable..."
-msgstr "Indlæser filer ud fra målets eksekverbare fil..."
+msgstr "Indlæser filer ud fra målets eksekverbare fil …"
 
 #: ../src/persp/dbgperspective/nmv-global-vars-inspector-dialog.cc:300
 #: ../src/persp/dbgperspective/nmv-local-vars-inspector.cc:592
@@ -1079,7 +1079,7 @@ msgstr "Fjern valgte udtryk fra overvågningen"
 
 #: ../src/persp/dbgperspective/nmv-expr-monitor.cc:247
 msgid "New..."
-msgstr "Ny..."
+msgstr "Ny …"
 
 #: ../src/persp/dbgperspective/nmv-expr-monitor.cc:248
 msgid "Add a new expression to the monitor"
