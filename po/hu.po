@@ -1,25 +1,35 @@
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Hungarian translation for nemiver.
+# Copyright (C) 2012, 2013, 2014, 2018 Free Software Foundation, Inc.
+# This file is distributed under the same license as the nemiver package.
 #
-# Gabor Kelemen <kelemeng at gnome dot hu>, 2012.
-# Balázs Úr <urbalazs at gmail dot com>, 2013, 2014.
+# Gábor Kelemen <kelemeng at gnome dot hu>, 2012.
+# Balázs Úr <urbalazs at gmail dot com>, 2013, 2014, 2018.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"Project-Id-Version: nemiver master\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nemiver&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-12-09 08:08+0000\n"
-"PO-Revision-Date: 2016-01-25 09:52+0100\n"
-"Last-Translator: Meskó Balázs <meskobalazs@gmail.com>\n"
+"POT-Creation-Date: 2017-09-28 12:16+0000\n"
+"PO-Revision-Date: 2018-02-27 00:12+0100\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Lokalize 1.2\n"
 
-#: ../data/nemiver.appdata.xml.in.h:1
+#: ../data/nemiver.appdata.xml.in.h:1 ../data/nemiver.desktop.in.h:1
+#: ../ui/workbench.ui.h:1
+msgid "Nemiver"
+msgstr "Nemiver"
+
+#: ../data/nemiver.appdata.xml.in.h:2 ../data/nemiver.desktop.in.h:4
+msgid "Debug Applications"
+msgstr "Alkalmazások hibáinak keresése"
+
+#: ../data/nemiver.appdata.xml.in.h:3
 msgid ""
 "Nemiver is an on-going effort to write a standalone graphical debugger that "
 "integrates well in the GNOME desktop environment. It currently features a "
@@ -30,17 +40,13 @@ msgstr ""
 "háttérprogramot nyújt, amely a jól ismert gdb GNU hibakeresőt használja a "
 "C / C++ programok hibakereséséhez."
 
-#: ../data/nemiver.appdata.xml.in.h:2
+#: ../data/nemiver.appdata.xml.in.h:4
 msgid ""
 "We believe that Nemiver is mature and robust enough to just let you debug "
 "your favorite C or C++ application in a pleasant way."
 msgstr ""
 "Hiszünk abban, hogy a Nemiver érett és elég robusztus ahhoz, hogy kellemes "
 "módon egye lehetővé a kedvenc C vagy C++ alkalmazásainak hibakeresését."
-
-#: ../data/nemiver.desktop.in.h:1 ../ui/workbench.ui.h:1
-msgid "Nemiver"
-msgstr "Nemiver"
 
 #: ../data/nemiver.desktop.in.h:2
 msgid "C/C++ Debugger"
@@ -49,10 +55,6 @@ msgstr "C/C++ hibakereső"
 #: ../data/nemiver.desktop.in.h:3
 msgid "Nemiver C/C++ Debugger"
 msgstr "Nemiver C/C++ hibakereső"
-
-#: ../data/nemiver.desktop.in.h:4
-msgid "Debug Applications"
-msgstr "Alkalmazások hibáinak keresése"
 
 #: ../data/nemiver.desktop.in.h:5
 msgid "gdb;disassembler;debugger;c;c++;"
@@ -239,7 +241,7 @@ msgid "Find this breakpoint in the source editor"
 msgstr "Ezen töréspont megkeresése a forrásszerkesztőben"
 
 #: ../src/persp/dbgperspective/nmv-call-stack.cc:177
-#: ../src/uicommon/nmv-terminal.cc:184
+#: ../src/uicommon/nmv-terminal.cc:180
 msgid "_Copy"
 msgstr "_Másolás"
 
@@ -300,113 +302,113 @@ msgstr "Memória"
 msgid "Expression Monitor"
 msgstr "Kifejezésfigyelő"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:1715
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:1718
 msgid "Reached end of file"
 msgstr "Fájl vége elérve"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:1718
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:1721
 #, c-format
 msgid "Could not find string %s"
 msgstr "A(z) „%s” karakterlánc nem található"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2103
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2106
 msgid "Change to Standard Breakpoint"
 msgstr "Váltás szabványos töréspontra"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2106
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2109
 msgid "Change to Countpoint"
 msgstr "Váltás számlálási pontra"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2108
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2111
 msgid "Remove _Breakpoint"
 msgstr "_Töréspont eltávolítása"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2111
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2114
 msgid "Disable Breakpoint"
 msgstr "Töréspont letiltása"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2113
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2116
 msgid "Enable Breakpoint"
 msgstr "Töréspont engedélyezése"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2116
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2119
 msgid "Set _Breakpoint"
 msgstr "Tö_réspont beállítása"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2118
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2121
 msgid "Set Countpoint"
 msgstr "Számlálási pont beállítása"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2281
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2284
 #, c-format
 msgid "%s (path=\"%s\", pid=%i)"
 msgstr "%s (útvonal=„%s”, pid=%i)"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2296
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2299
 msgid "Connected to remote target!"
 msgstr "Csatlakozva a távoli célhoz!"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2498
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2501
 msgid "Program exited"
 msgstr "A program befejeződött"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2528
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2531
 msgid "The underlying debugger engine process died."
 msgstr "A háttérben futó hibakereső folyamat összeomlott."
 
 #. translators: first %s is the signal name, second one is the reason
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2632
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2635
 #, c-format
 msgid "Target received a signal: %s, %s"
 msgstr "A cél a következő jelzést kapta: %s, %s"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2648
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2651
 #, c-format
 msgid "An error occurred: %s"
 msgstr "Hiba történt: %s"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2812
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2815
 #, c-format
 msgid "File %s has been modified. Do you want to reload it?"
 msgstr "A(z) %s fájl megváltozott. Újratölti?"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3175
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3178
 msgid "_Detach From the Running Program"
 msgstr "_Leválasztás a futó programról"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3176
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3179
 msgid "Disconnect the debugger from the running target without killing it"
 msgstr "A hibakereső leválasztása a futó célról annak kilövése nélkül"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3191
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3194
 msgid "_Save Session to Disk"
 msgstr "_Munkamenet lemezre mentése"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3192
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3195
 msgid "Save the current debugging session to disk"
 msgstr "A jelenlegi hibakeresési munkamenet lemezre mentése"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3201
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3204
 msgid "_Run or Restart"
 msgstr "_Futtatás vagy újraindítás"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3202
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3205
 msgid "Run or Restart the target"
 msgstr "A cél futtatása vagy újraindítása"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3211
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3214
 msgid "Set Breakpoint with Dialog..."
 msgstr "Töréspont beállítása párbeszédablakkal…"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3212
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3215
 msgid "Set a breakpoint at the current line using a dialog"
 msgstr "Töréspont beállítása a jelenlegi sorban párbeszédablak használatával"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3223
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3226
 msgid "Set Breakpoint..."
 msgstr "Töréspont beállítása…"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3224
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3227
 msgid "Set a breakpoint at a function or line number"
 msgstr "Töréspont beállítása függvénynél vagy sorszámnál"
 
@@ -417,11 +419,11 @@ msgstr "Töréspont beállítása függvénynél vagy sorszámnál"
 #. this initial value is going to be displayed only when
 #. Nemiver is launched with no executable on the command
 #. line.
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3240
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3243
 msgid "Toggle _Breakpoint"
 msgstr "Töréspont át_váltása"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3241
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3244
 msgid "Set/Unset a breakpoint at the current cursor location"
 msgstr "Töréspont beállítása/eltávolítása a kurzor jelenlegi helyén"
 
@@ -432,11 +434,11 @@ msgstr "Töréspont beállítása/eltávolítása a kurzor jelenlegi helyén"
 #. this initial value is going to be displayed only when
 #. Nemiver is launched with no executable on the command
 #. line.
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3258
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3261
 msgid "Enable/Disable Breakpoint"
 msgstr "Töréspont bekapcsolása/kikapcsolása"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3259
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3262
 msgid ""
 "Enable or disable the breakpoint that is set at the current cursor location"
 msgstr "A kurzor jelenlegi helyén lévő töréspont bekapcsolása/kikapcsolása"
@@ -449,141 +451,141 @@ msgstr "A kurzor jelenlegi helyén lévő töréspont bekapcsolása/kikapcsolás
 #. this initial value is going to be displayed only when
 #. Nemiver is launched with no executable on the command
 #. line.
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3279
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3282
 msgid "Toggle _Countpoint"
 msgstr "Szá_mlálási pont átválása"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3280
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3283
 msgid "Set/Unset a countpoint at the current cursor location"
 msgstr "Számlálási pont beállítása/eltávolítása a kurzor jelenlegi helyén"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3290
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3293
 msgid "Set Watchpoint with Dialog..."
 msgstr "Figyelőpont beállítása párbeszédablakkal…"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3291
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3294
 msgid "Set a watchpoint using a dialog"
 msgstr "Figyelőpont beállítása párbeszédablak használatával"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3306
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3309
 msgid "_Next"
 msgstr "_Következő"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3307
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3310
 msgid "Execute next line stepping over the next function, if any"
 msgstr "Következő sor végrehajtása a következő függvény átlépésével, ha van"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3316
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3319
 msgid "_Step"
 msgstr "_Léptetés"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3317
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3320
 msgid "Execute next line, stepping into the next function, if any"
 msgstr "Következő sor végrehajtása a következő függvénybe belépéssel, ha van"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3326
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3329
 msgid "Step _Out"
 msgstr "_Kilépés"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3327
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3330
 msgid "Finish the execution of the current function"
 msgstr "A jelenlegi függvény futtatásának befejezése"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3336
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3339
 msgid "Step Into asm"
 msgstr "Belépés asm-be"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3337
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3340
 msgid "Step into the next assembly instruction"
 msgstr "Belépés a következő assembly utasításba"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3346
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3349
 msgid "Step Over asm"
 msgstr "Átlépés asm-en"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3347
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3350
 msgid "Step over the next assembly instruction"
 msgstr "A következő assembly utasítás átlépése"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3356
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3359
 msgid "_Continue"
 msgstr "_Folytatás"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3357
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3360
 msgid "Continue program execution until the next breakpoint"
 msgstr "Program végrehajtásának folytatása a következő töréspontig"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3366
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3369
 msgid "Run to Cursor"
 msgstr "Futtatás a kurzorig"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3367
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3370
 msgid "Continue program execution until the currently selected line is reached"
 msgstr "Program végrehajtásának folytatása a kijelölt sor eléréséig"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3377
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3380
 msgid "Jump to Cursor"
 msgstr "Ugrás a kurzorhoz"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3378
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3381
 msgid "Jump to the currently selected line"
 msgstr "Ugrás a kijelölt sorhoz"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3388
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3391
 msgid "Jump and Stop to Cursor"
 msgstr "Ugrás a kurzorhoz és megállítás"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3389
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3392
 msgid "Sets a breakpoint to the currently selected line and jump there"
 msgstr "Töréspont beállítása az éppen kijelölt sorhoz, és odaugrás"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3401
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3404
 msgid "Jump to a Given Location"
 msgstr "Ugrás a megadott helyre"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3402
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3405
 msgid "Select a given code location and jump there"
 msgstr "Adott kódhely kiválasztása és odaugrás"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3413
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3416
 #: ../src/persp/dbgperspective/ui/exprinspectordialog.ui.h:1
 msgid "Inspect an Expression"
 msgstr "Kifejezés vizsgálata"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3414
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3417
 msgid "Inspect a global or local expression"
 msgstr "Globális vagy lokális kifejezés vizsgálata"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3424
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3427
 #: ../src/persp/dbgperspective/ui/callfunctiondialog.ui.h:1
 msgid "Call a Function"
 msgstr "Függvény hívása"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3425
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3428
 msgid "Call a function in the program being debugged"
 msgstr "Függvény hívása a hibakeresés alatt álló programban"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3434
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3437
 msgid "Show Global Variables"
 msgstr "Globális változók megjelenítése"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3435
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3438
 msgid "Display all global variables"
 msgstr "Az összes globális változó megjelenítése"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3445
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3448
 msgid "Refresh Locals"
 msgstr "Helyiek frissítése"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3446
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3449
 msgid "Refresh the list of variables local to the current function"
 msgstr "A jelenlegi függvényben helyi változók listájának frissítése"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3455
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3458
 msgid "Show Assembly"
 msgstr "Assembly megjelenítése"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3456
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3459
 msgid ""
 "Show the assembly code of the source code being currently debugged, in "
 "another tab"
@@ -591,189 +593,189 @@ msgstr ""
 "A hibakeresés alatt álló forráskód assembly kódjának megjelenítése másik "
 "lapon"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3468
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3471
 msgid "Switch to Assembly"
 msgstr "Váltás assemblyre"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3469
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3472
 msgid "Show the assembly code of the source code being currently debugged"
 msgstr "A hibakeresés alatt álló forráskód assembly kódjának megjelenítése"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3481
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3484
 msgid "Switch to Source"
 msgstr "Váltás a forrásra"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3482
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3485
 msgid "Show the source code being currently debugged"
 msgstr "A hibakeresés alatt álló forráskód megjelenítése"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3494
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3497
 msgid "Stop"
 msgstr "Leállítás"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3495
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3498
 msgid "Stop the debugger"
 msgstr "Hibakereső leállítása"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3507
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3510
 msgid "_View"
 msgstr "_Nézet"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3518
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3521
 msgid "Switch to Target Terminal View"
 msgstr "Váltás a Cél terminál nézetre"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3529
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3532
 msgid "Switch to Context View"
 msgstr "Váltás a Kontextus nézetre"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3540
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3543
 msgid "Switch to Breakpoints View"
 msgstr "Váltás a Töréspontok nézetre"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3551
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3554
 msgid "Switch to Registers View"
 msgstr "Váltás a Regiszterek nézetre"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3563
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3566
 msgid "Switch to Memory View"
 msgstr "Váltás a Memória nézetre"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3574
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3577
 msgid "Switch to Variables Monitor View"
 msgstr "Váltás a Változófigyelő nézetre"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3583
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3586
 msgid "_Debug"
 msgstr "_Hibakeresés"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3593
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3596
 msgid "_Open Source File..."
 msgstr "F_orrásfájl megnyitása…"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3594
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3597
 msgid "Open a source file for viewing"
 msgstr "Forrásfájl megnyitása megjelenítésre"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3603
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3606
 msgid "Load _Executable..."
 msgstr "_Végrehajtható betöltése…"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3604
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3607
 msgid "Execute a program"
 msgstr "Program futtatása"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3614
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3617
 msgid "_Load Core File..."
 msgstr "C_ore fájl betöltése…"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3615
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3618
 msgid "Load a core file from disk"
 msgstr "Core fájl betöltése a lemezről"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3625
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3628
 msgid "_Attach to Running Program..."
 msgstr "_Kapcsolódás futó programhoz…"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3626
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3629
 msgid "Debug a program that's already running"
 msgstr "Már futó program hibakeresése"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3636
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3639
 msgid "_Connect to Remote Target..."
 msgstr "_Csatlakozás távoli célhoz…"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3637
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3640
 msgid "Connect to a debugging server to debug a remote target"
 msgstr "Kapcsolódás hibakereső kiszolgálóhoz távoli cél hibakereséséhez"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3648
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3651
 msgid "Resume Sa_ved Session..."
 msgstr "Me_ntett munkamenet folytatása…"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3649
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3652
 msgid "Open a previously saved debugging session"
 msgstr "Korábban mentett hibakeresési munkamenet megnyitása"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3659
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3662
 msgid "_Preferences"
 msgstr "_Beállítások"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3660
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3663
 msgid "Edit the properties of the current session"
 msgstr "A jelenlegi munkamenet tulajdonságainak szerkesztése"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3674
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3677
 msgid "_Copy selected text"
 msgstr "_Kijelölt szöveg másolása"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3675
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3678
 msgid "Copy the text selected in the current source file"
 msgstr "A kijelölt szöveg másolása a jelenlegi forrásfájlba"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3684
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3687
 msgid "_Reload Source File"
 msgstr "_Forrásfájl újratöltése"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3685
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3688
 msgid "Reloads the source file"
 msgstr "A forrásfájl újratöltése"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3694
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3697
 msgid "_Close Source File"
 msgstr "Forrásfájl be_zárása"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3695
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3698
 msgid "Close the opened file"
 msgstr "A megnyitott fájl bezárása"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3704
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3707
 msgid "_Find"
 msgstr "_Keresés"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3705
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3708
 msgid "Find a text string in file"
 msgstr "Szöveg keresése a fájlban"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:4029
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:4033
 #, c-format
 msgid "Close %s"
 msgstr "%s bezárása"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6029
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6033
 msgid "Sorry, it's impossible to restart a remote inferior"
 msgstr "Nem lehet újraindítani távoli alacsonyabb szintűt"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6174
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6178
 #, c-format
 msgid "Could not find file %s"
 msgstr "Nem található a(z) %s fájl"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6238
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6429
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6464
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6242
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6433
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6468
 #, c-format
 msgid "Could not load program: %s"
 msgstr "„%s” program nem tölthető be"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6357
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6361
 msgid "You cannot attach to Nemiver itself"
 msgstr "Nem kapcsolódhat magához a Nemiverhez"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6371
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6375
 msgid "You cannot attach to the underlying debugger engine"
 msgstr "Nem kapcsolódhat a háttérben futó hibakereső folyamathoz"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6667
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6671
 msgid "Failed to stop the debugger"
 msgstr "Hibakereső leállítása sikertelen"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6911
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:6915
 #, c-format
 msgid "Invalid line number: %i"
 msgstr "Érvénytelen sorszám: %i"
 
-#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:8551
+#: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:8569
 #, c-format
 msgid ""
 "There is a program being currently debugged. Do you really want to exit from "
@@ -894,7 +896,7 @@ msgid "Long Word"
 msgstr "Hosszú szó"
 
 #: ../src/persp/dbgperspective/nmv-memory-view.cc:98
-#: ../src/persp/dbgperspective/ui/remotetargetdialog.ui.h:9
+#: ../src/persp/dbgperspective/ui/remotetargetdialog.ui.h:8
 #: ../src/persp/dbgperspective/ui/setbreakpointdialog.ui.h:8
 #: ../src/persp/dbgperspective/ui/setjumptodialog.ui.h:9
 msgid "Address:"
@@ -918,13 +920,13 @@ msgstr "Válasszon könyvtárat"
 msgid "Source Directories"
 msgstr "Forráskönyvtárak"
 
-#: ../src/persp/dbgperspective/nmv-proc-list-dialog.cc:132
-msgid "User Name"
-msgstr "Felhasználónév"
-
-#: ../src/persp/dbgperspective/nmv-proc-list-dialog.cc:139
+#: ../src/persp/dbgperspective/nmv-proc-list-dialog.cc:100
 msgid "Proc Args"
 msgstr "Foly. arg."
+
+#: ../src/persp/dbgperspective/nmv-proc-list-dialog.cc:139
+msgid "User Name"
+msgstr "Felhasználónév"
 
 #: ../src/persp/dbgperspective/nmv-registers-view.cc:101
 #: ../src/persp/dbgperspective/nmv-run-program-dialog.cc:99
@@ -1180,13 +1182,13 @@ msgid "Assembly flavor"
 msgstr "Assembly változat"
 
 #: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:25
+msgid "Path to the GDB binary used"
+msgstr "A használt GDB bináris útvonala"
+
+#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:26
 #: ../src/persp/dbgperspective/ui/remotetargetdialog.ui.h:3
 msgid "Choose a File"
 msgstr "Válasszon fájlt"
-
-#: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:26
-msgid "Path to the GDB binary used"
-msgstr "A használt GDB bináris útvonala"
 
 #: ../src/persp/dbgperspective/ui/preferencesdialog.ui.h:27
 msgid "GDB Binary"
@@ -1260,7 +1262,7 @@ msgstr "Távoli hibakereső kiszolgáló"
 msgid "TCP/IP Connection"
 msgstr "TCP/IP kapcsolat"
 
-#: ../src/persp/dbgperspective/ui/remotetargetdialog.ui.h:8
+#: ../src/persp/dbgperspective/ui/remotetargetdialog.ui.h:9
 msgid "Port:"
 msgstr "Port:"
 
@@ -1425,28 +1427,28 @@ msgstr ""
 msgid "Line: %i, Column: %i"
 msgstr "Sor: %i, oszlop: %i"
 
-#: ../src/uicommon/nmv-source-editor.cc:1490
+#: ../src/uicommon/nmv-source-editor.cc:1491
 #, c-format
 msgid "Could not load file %s because its encoding is different from %s"
 msgstr "Nem lehet betölteni a(z) „%s” fájlt, mert a kódolása eltér ettől: %s"
 
-#: ../src/uicommon/nmv-terminal.cc:185
+#: ../src/uicommon/nmv-terminal.cc:181
 msgid "Copy the selection"
 msgstr "A kijelölés másolása"
 
-#: ../src/uicommon/nmv-terminal.cc:191
+#: ../src/uicommon/nmv-terminal.cc:187
 msgid "_Paste"
 msgstr "_Beillesztés"
 
-#: ../src/uicommon/nmv-terminal.cc:192
+#: ../src/uicommon/nmv-terminal.cc:188
 msgid "Paste the clipboard"
 msgstr "A vágólap tartalmának beillesztése"
 
-#: ../src/uicommon/nmv-terminal.cc:198
+#: ../src/uicommon/nmv-terminal.cc:194
 msgid "_Reset"
 msgstr "_Törlés"
 
-#: ../src/uicommon/nmv-terminal.cc:199
+#: ../src/uicommon/nmv-terminal.cc:195
 msgid "Reset the terminal"
 msgstr "A terminál törlése"
 
@@ -1507,3 +1509,12 @@ msgstr "Válassza ki a fájl helyét"
 #: ../ui/locatefiledialog.ui.h:2
 msgid "Locate File"
 msgstr "Fájl megkeresése"
+
+#: ../ui/locatefiledialog.ui.h:3
+msgid "Nemiver cannot locate the following file:"
+msgstr "A Nemiver nem találja a következő fájlt:"
+
+#: ../ui/locatefiledialog.ui.h:4
+msgid "Select File Location: "
+msgstr "Válassza ki a fájl helyét: "
+
