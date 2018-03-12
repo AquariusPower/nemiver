@@ -1,22 +1,22 @@
 # Brazilian Portuguese Translation of Nemiver.
-# Copyright (C) 2017 Nemiver's copyright holder.
+# Copyright (C) 2018 Nemiver's copyright holder.
 # This file is distributed under the same license as the nemiver package.
 # Ricardo Ichizo <n1ghtcr4wler@gmail.com>, 2008.
 # Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2008.
 # Jonh Wendell <jwendell@gnome.org>, 2009.
 # Hugo Vaz Sampaio <hvazsampaio@gmail.com>, 2010.
 # Gabriel Speckhahn <gabspeck@gmail.com>, 2012.
-# Rafael Fontenenlle <rafaelff@gnome.org>, 2013.
 # Enrico Nicoletto <liverig@gmail.com>, 2008, 2013, 2015.
 # Isaac Ferreira Filho <isaacmob@riseup.net>, 2017.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: nemiver\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nemiver&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-10-05 16:30+0000\n"
-"PO-Revision-Date: 2017-10-04 16:53-0300\n"
-"Last-Translator: Isaac Ferreira Filho <isaacmob@riseup.net>\n"
+"POT-Creation-Date: 2017-10-07 07:37+0000\n"
+"PO-Revision-Date: 2018-03-12 00:41-0300\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -348,7 +348,7 @@ msgstr "Definir ponto de contagem"
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2284
 #, c-format
 msgid "%s (path=\"%s\", pid=%i)"
-msgstr "%s (caminho=\"%s\", pid=%i)"
+msgstr "%s (caminho=“%s”, pid=%i)"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:2299
 msgid "Connected to remote target!"
@@ -404,7 +404,7 @@ msgstr "Executa ou reinicia o destino"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3214
 msgid "Set Breakpoint with Dialog..."
-msgstr "Definir ponto de interrupção com um diálogo..."
+msgstr "Definir ponto de interrupção com um diálogo…"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3215
 msgid "Set a breakpoint at the current line using a dialog"
@@ -412,7 +412,7 @@ msgstr "Define um ponto de interrupção na linha atual usando um diálogo"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3226
 msgid "Set Breakpoint..."
-msgstr "Definir ponto de interrupção..."
+msgstr "Definir ponto de interrupção…"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3227
 msgid "Set a breakpoint at a function or line number"
@@ -469,7 +469,7 @@ msgstr "Define/remove um ponto de contagem na localização atual do cursor"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3293
 msgid "Set Watchpoint with Dialog..."
-msgstr "Definir ponto de observação com um diálogo..."
+msgstr "Definir ponto de observação com um diálogo…"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3294
 msgid "Set a watchpoint using a dialog"
@@ -662,7 +662,7 @@ msgstr "_Depurar"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3596
 msgid "_Open Source File..."
-msgstr "_Abrir arquivo fonte..."
+msgstr "_Abrir arquivo fonte…"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3597
 msgid "Open a source file for viewing"
@@ -670,7 +670,7 @@ msgstr "Abre um arquivo fonte para exibição"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3606
 msgid "Load _Executable..."
-msgstr "Carregar _executável..."
+msgstr "Carregar _executável…"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3607
 msgid "Execute a program"
@@ -678,7 +678,7 @@ msgstr "Executa um programa"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3617
 msgid "_Load Core File..."
-msgstr "_Carregar um arquivo core..."
+msgstr "_Carregar um arquivo core…"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3618
 msgid "Load a core file from disk"
@@ -686,7 +686,7 @@ msgstr "Carrega um arquivo core do disco"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3628
 msgid "_Attach to Running Program..."
-msgstr "Ane_xar ao programa em execução..."
+msgstr "Ane_xar ao programa em execução…"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3629
 msgid "Debug a program that's already running"
@@ -694,7 +694,7 @@ msgstr "Depura um programa que já está sendo executado"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3639
 msgid "_Connect to Remote Target..."
-msgstr "Co_nectar a destino remoto..."
+msgstr "Co_nectar a destino remoto…"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3640
 msgid "Connect to a debugging server to debug a remote target"
@@ -702,7 +702,7 @@ msgstr "Conecta a um servidor de depuração para depurar um destino remoto"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3651
 msgid "Resume Sa_ved Session..."
-msgstr "Continuar sessão sal_va..."
+msgstr "Continuar sessão sal_va…"
 
 #: ../src/persp/dbgperspective/nmv-dbg-perspective.cc:3652
 msgid "Open a previously saved debugging session"
@@ -845,7 +845,7 @@ msgstr "_Recolher"
 
 #: ../src/persp/dbgperspective/nmv-file-list.cc:427
 msgid "Loading files from target executable..."
-msgstr "Carregando arquivos do executável destino..."
+msgstr "Carregando arquivos do executável destino…"
 
 #: ../src/persp/dbgperspective/nmv-global-vars-inspector-dialog.cc:300
 #: ../src/persp/dbgperspective/nmv-local-vars-inspector.cc:592
@@ -1012,7 +1012,7 @@ msgstr "Remove as expressões selecionadas do monitor"
 
 #: ../src/persp/dbgperspective/nmv-expr-monitor.cc:247
 msgid "New..."
-msgstr "Nova..."
+msgstr "Nova…"
 
 #: ../src/persp/dbgperspective/nmv-expr-monitor.cc:248
 msgid "Add a new expression to the monitor"
