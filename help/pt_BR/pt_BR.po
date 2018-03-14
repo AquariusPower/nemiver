@@ -1,24 +1,23 @@
 # Brazilian Portuguese Translation of Nemiver manual.
-# Copyright (C) 2014 Nemiver's copyright holder.
+# Copyright (C) 2018 Nemiver's copyright holder.
 # This file is distributed under the same license as the nemiver package.
 # Enrico Nicoletto <liverig@gmail.com>, 2013.
-# Rafael Ferreira <rafael.f.f1@gmail.com>, 2013, 2014.
-#
+# Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2014, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: nemiver manual\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nemiver&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-01-18 13:40+0000\n"
-"PO-Revision-Date: 2014-03-19 11:18-0300\n"
-"Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
+"POT-Creation-Date: 2017-09-28 12:14+0000\n"
+"PO-Revision-Date: 2018-03-12 00:26-0200\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Virtaal 1.0.0-beta1\n"
 "X-Project-Style: gnome\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -26,204 +25,7 @@ msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Enrico Nicoletto <liverig@gmail.com>, 2013\n"
-"Rafael Ferreira <rafael.f.f1@gmail.com>, 2013, 2014"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:180
-msgctxt "_"
-msgid ""
-"external ref='figures/main-window.png' md5='216a6e17325ddd6a4e96037d05a39734'"
-msgstr ""
-"external ref='figures/main-window.png' md5='002ab499cae23049c2f9a0eb1d62c97b'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:329
-msgctxt "_"
-msgid ""
-"external ref='figures/execute-dialog.png' "
-"md5='450a45378b4021176c8f093be2dedc97'"
-msgstr ""
-"external ref='figures/execute-dialog.png' "
-"md5='09177931713ebecef7fdb43171873ac8'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:394
-msgctxt "_"
-msgid ""
-"external ref='figures/attach-dialog.png' "
-"md5='9940de171b58f92ea810dc4478364976'"
-msgstr ""
-"external ref='figures/attach-dialog.png' "
-"md5='9940de171b58f92ea810dc4478364976'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:440
-msgctxt "_"
-msgid ""
-"external ref='figures/load-core-dialog.png' "
-"md5='2a3dd09883a026826d0a7036991720a4'"
-msgstr ""
-"external ref='figures/load-core-dialog.png' "
-"md5='3a5d239270808beb1c3ba7339a4ec91e'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:471
-msgctxt "_"
-msgid ""
-"external ref='figures/connect-remote-dialog.png' "
-"md5='0f47f358e68947aaf1330fb1c1013f72'"
-msgstr ""
-"external ref='figures/connect-remote-dialog.png' "
-"md5='50c667690ff90fc3b56c71f7641b3c81'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:593
-#, fuzzy
-msgctxt "_"
-msgid ""
-"external ref='figures/variable-inspector.png' "
-"md5='676c2a7985aa4e41f5a77a85bcfd8a27'"
-msgstr ""
-"external ref='figures/variable-inspector.png' "
-"md5='676c2a7985aa4e41f5a77a85bcfd8a27'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:627
-msgctxt "_"
-msgid ""
-"external ref='figures/global-variables-dialog.png' "
-"md5='b3224457732491046fbcea9491df2383'"
-msgstr ""
-"external ref='figures/global-variables-dialog.png' "
-"md5='98eb6143e31fa1719014b4e97971f06c'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:667
-msgctxt "_"
-msgid ""
-"external ref='figures/set-breakpoint-dialog.png' "
-"md5='86618670e2f62026adeb38ae033ec38d'"
-msgstr ""
-"external ref='figures/set-breakpoint-dialog.png' "
-"md5='02ee392091b586c87b054fa993d2f80a'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:705
-msgctxt "_"
-msgid ""
-"external ref='figures/enabled-breakpoint.png' "
-"md5='a51237a0756cdb7a754b24b211e40bbb'"
-msgstr ""
-"external ref='figures/enabled-breakpoint.png' "
-"md5='a51237a0756cdb7a754b24b211e40bbb'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:716
-msgctxt "_"
-msgid ""
-"external ref='figures/disabled-breakpoint.png' "
-"md5='b703d696cec0c49810de7f2a85f0ddba'"
-msgstr ""
-"external ref='figures/disabled-breakpoint.png' "
-"md5='b703d696cec0c49810de7f2a85f0ddba'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:739
-#, fuzzy
-msgctxt "_"
-msgid ""
-"external ref='figures/open-files-target.png' "
-"md5='715003a703fc7cc112bea9e58a25f627'"
-msgstr ""
-"external ref='figures/open-files-target.png' "
-"md5='715003a703fc7cc112bea9e58a25f627'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:777
-#, fuzzy
-msgctxt "_"
-msgid ""
-"external ref='figures/registers-view.png' "
-"md5='25b369f4f3f0a42c04ded0f8880435ba'"
-msgstr ""
-"external ref='figures/registers-view.png' "
-"md5='25b369f4f3f0a42c04ded0f8880435ba'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:802
-#, fuzzy
-msgctxt "_"
-msgid ""
-"external ref='figures/memory-view.png' md5='b2a94da383551b3eaae64ddb93a7128f'"
-msgstr ""
-"external ref='figures/memory-view.png' md5='b2a94da383551b3eaae64ddb93a7128f'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:863
-#, fuzzy
-msgctxt "_"
-msgid ""
-"external ref='figures/sessions-dialog.png' "
-"md5='d07fd79198e666ca9b21fee3bbb30db4'"
-msgstr ""
-"external ref='figures/sessions-dialog.png' "
-"md5='d07fd79198e666ca9b21fee3bbb30db4'"
+"Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2014, 2018"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:24
@@ -432,6 +234,18 @@ msgstr ""
 #: C/index.docbook:176
 msgid "Nemiver Window"
 msgstr "Janela do Nemiver"
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:180
+msgctxt "_"
+msgid ""
+"external ref='figures/main-window.png' md5='216a6e17325ddd6a4e96037d05a39734'"
+msgstr ""
+"external ref='figures/main-window.png' md5='002ab499cae23049c2f9a0eb1d62c97b'"
 
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:178
@@ -647,6 +461,20 @@ msgstr ""
 msgid "Execute Dialog"
 msgstr "Caixa de diálogo de execução"
 
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:329
+msgctxt "_"
+msgid ""
+"external ref='figures/execute-dialog.png' "
+"md5='450a45378b4021176c8f093be2dedc97'"
+msgstr ""
+"external ref='figures/execute-dialog.png' "
+"md5='09177931713ebecef7fdb43171873ac8'"
+
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:327
 msgid ""
@@ -717,8 +545,8 @@ msgid ""
 msgstr ""
 "Se você deseja passar opções na linha de comando para o programa que você "
 "está depurando, você deveria colocar aspas em volta dessas opções para "
-"evitar do Nemiver processá-las: <command>nemiver \"prognam --arg1 --arg2\"</"
-"command>."
+"evitar do Nemiver processá-las: <command>nemiver \"nome-do programa --arg1 --"
+"arg2\"</command>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:378
@@ -740,6 +568,20 @@ msgstr ""
 #: C/index.docbook:390
 msgid "Attach Dialog"
 msgstr "Caixa de diálogo de anexo"
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:394
+msgctxt "_"
+msgid ""
+"external ref='figures/attach-dialog.png' "
+"md5='9940de171b58f92ea810dc4478364976'"
+msgstr ""
+"external ref='figures/attach-dialog.png' "
+"md5='9940de171b58f92ea810dc4478364976'"
 
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:392
@@ -806,6 +648,20 @@ msgstr ""
 msgid "Load Core File Dialog"
 msgstr "Diálogo para carregar um arquivo core"
 
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:440
+msgctxt "_"
+msgid ""
+"external ref='figures/load-core-dialog.png' "
+"md5='2a3dd09883a026826d0a7036991720a4'"
+msgstr ""
+"external ref='figures/load-core-dialog.png' "
+"md5='3a5d239270808beb1c3ba7339a4ec91e'"
+
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:438
 msgid ""
@@ -841,6 +697,20 @@ msgstr ""
 "Para conectar a um servidor de depuração remoto, selecione "
 "<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Conectar a um destino "
 "remoto...</guimenuitem></menuchoice>"
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:471
+msgctxt "_"
+msgid ""
+"external ref='figures/connect-remote-dialog.png' "
+"md5='0f47f358e68947aaf1330fb1c1013f72'"
+msgstr ""
+"external ref='figures/connect-remote-dialog.png' "
+"md5='50c667690ff90fc3b56c71f7641b3c81'"
 
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:469
@@ -930,8 +800,8 @@ msgid ""
 "activated from the keyboard with <keycap>F6</keycap>."
 msgstr ""
 "Executa a próxima instrução e para quando alcançar a próxima linha nesse "
-"arquivo. Alguns depuradores chamam essa ação de \"Passar por cima\". Essa "
-"ação pode ser ativada pelo teclado com <keycap>F6</keycap>."
+"arquivo. Alguns depuradores chamam essa ação de “Passar por cima”. Essa ação "
+"pode ser ativada pelo teclado com <keycap>F6</keycap>."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:531
@@ -946,7 +816,7 @@ msgid ""
 "from the keyboard with <keycap>F7</keycap>."
 msgstr ""
 "Executa a próxima instrução, entrando na função se possível. Alguns "
-"depuradores podem chamar essa função de \"um passo\". Essa ação pode ser "
+"depuradores podem chamar essa função de “um passo”. Essa ação pode ser "
 "ativada pelo teclado com <keycap>F7</keycap>."
 
 #. (itstool) path: varlistentry/term
@@ -1009,6 +879,12 @@ msgid ""
 "variables\"/>), or set additional breakpoints (see <xref linkend=\"nemiver-"
 "sect-breakpoints\"/>)."
 msgstr ""
+"Por padrão, depois de carregar um executável, o Nemiver cria um ponto de "
+"interrupção em <function>main()</function>, então quando a execução atinge "
+"<function>main()</function>, ele irá parar e aguardar a entrada. Você pode "
+"então passar pelo programa, examinar variáveis (veja <xref linkend=\"nemiver-"
+"sect-inspecting-variables\"/>) ou definir pontos de interrupção adicionais "
+"(veja <xref linkend=\"nemiver-sect-breakpoints\"/>)."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:582
@@ -1035,6 +911,20 @@ msgstr ""
 "<menuchoice><guimenu>Depurar</guimenu><guimenuitem>Inspecionar uma variável</"
 "guimenuitem></menuchoice>. Quando o inspetor de variável aparecer, você verá "
 "uma janela semelhante a:"
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:593
+msgctxt "_"
+msgid ""
+"external ref='figures/variable-inspector.png' "
+"md5='676c2a7985aa4e41f5a77a85bcfd8a27'"
+msgstr ""
+"external ref='figures/variable-inspector.png' "
+"md5='676c2a7985aa4e41f5a77a85bcfd8a27'"
 
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:591
@@ -1102,6 +992,20 @@ msgstr ""
 "globais</guimenuitem></menuchoice> ou pressione <keycombo><keycap>Ctrl</"
 "keycap><keycap>G</keycap></keycombo>."
 
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:627
+msgctxt "_"
+msgid ""
+"external ref='figures/global-variables-dialog.png' "
+"md5='b3224457732491046fbcea9491df2383'"
+msgstr ""
+"external ref='figures/global-variables-dialog.png' "
+"md5='98eb6143e31fa1719014b4e97971f06c'"
+
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:625
 msgid ""
@@ -1156,6 +1060,11 @@ msgid ""
 "guimenu><guimenuitem>Toggle Breakpoint at Cursor</guimenuitem></menuchoice>, "
 "or by pressing <keycap>F8</keycap>"
 msgstr ""
+"Coloque seu cursor em uma linha onde deseja que o ponto de interrupção seja "
+"configurado e defina o ponto de interrupção escolhendo "
+"<menuchoice><guimenu>Depurar</guimenu><guimenuitem>Alternar ponto de "
+"interrupção</guimenuitem></menuchoice> ou por pressionando <keycap>F8</"
+"keycap>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:660
@@ -1166,6 +1075,26 @@ msgid ""
 "<keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo>. This will "
 "bring up a dialog that looks like the following:"
 msgstr ""
+"Defina um ponto de interrupção em um nome de função específico ou em uma "
+"localização específica em um arquivo selecionando "
+"<menuchoice><guimenu>Depurar</guimenu><guimenuitem>Definir ponto de "
+"interrupção...</guimenuitem></menuchoice> ou pressionando "
+"<keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo>. Isso exibirá "
+"um diálogo que se parece com o seguinte:"
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:667
+msgctxt "_"
+msgid ""
+"external ref='figures/set-breakpoint-dialog.png' "
+"md5='86618670e2f62026adeb38ae033ec38d'"
+msgstr ""
+"external ref='figures/set-breakpoint-dialog.png' "
+"md5='02ee392091b586c87b054fa993d2f80a'"
 
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:665
@@ -1174,6 +1103,9 @@ msgid ""
 "format=\"PNG\"/> </imageobject> <textobject> <phrase>Set Breakpoint Dialog</"
 "phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/set-breakpoint-dialog.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Diálogo de definição de "
+"ponto de interrupção</phrase> </textobject>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:674
@@ -1183,6 +1115,10 @@ msgid ""
 "Nemiver will display a list of all matching functions and ask you to pick "
 "the one you want."
 msgstr ""
+"Você pode especificar um ponto de interrupção em um local específico em um "
+"arquivo ou pelo nome da função. Se houver mais de uma função com o mesmo "
+"nome, o Nemiver exibirá uma lista de todas as funções correspondentes e "
+"pedirá que você escolha o que deseja."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:683
@@ -1197,6 +1133,11 @@ msgid ""
 "by any breakpoints in the disabled state. This allows you to temporarily "
 "remove a breakpoint without actually deleting it."
 msgstr ""
+"Os pontos de interrupção podem ser ativados ou desativados. O depurador irá "
+"parar a execução sempre que atingir um ponto de interrupção habilitado, mas "
+"não será afetado por nenhum ponto de interrupção no estado desativado. Isso "
+"permite que você remova temporariamente um ponto de interrupção sem "
+"realmente excluí-lo."
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:690
@@ -1208,6 +1149,13 @@ msgid ""
 "to enable or disable a breakpoint that is set on the line that the cursor is "
 "currently on."
 msgstr ""
+"Para desativar ou ativar um ponto de interrupção, clique na caixa de seleção "
+"ao lado do número do ponto de interrupção que deseja ativar ou desativar na "
+"guia <interface>Pontos de interrupção</interface> da <interface>Aba de "
+"status</interface>. Alternativamente, você pode pressionar "
+"<keycombo><keycap>Shift</keycap><keycap>F8</keycap></keycombo> para ativar "
+"ou desativar um ponto de interrupção definido na linha em que o cursor está "
+"atualmente."
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:698
@@ -1215,6 +1163,22 @@ msgid ""
 "The following figures show the difference between enabled and disabled "
 "breakpoints in the source editor."
 msgstr ""
+"As figuras a seguir mostram a diferença entre pontos de interrupção ativados "
+"e desativados no editor de origem."
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:705
+msgctxt "_"
+msgid ""
+"external ref='figures/enabled-breakpoint.png' "
+"md5='a51237a0756cdb7a754b24b211e40bbb'"
+msgstr ""
+"external ref='figures/enabled-breakpoint.png' "
+"md5='a51237a0756cdb7a754b24b211e40bbb'"
 
 #. (itstool) path: caption/para
 #: C/index.docbook:710
@@ -1228,6 +1192,23 @@ msgid ""
 "\"PNG\"/> </imageobject> <textobject> <phrase>Illustration of an enabled "
 "breakpoint</phrase> </textobject> <_:caption-1/>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/enabled-breakpoint.png\" format="
+"\"PNG\"/> </imageobject> <textobject> <phrase>Ilustração de um ponto de "
+"interrupção ativado</phrase> </textobject> <_:caption-1/>"
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:716
+msgctxt "_"
+msgid ""
+"external ref='figures/disabled-breakpoint.png' "
+"md5='b703d696cec0c49810de7f2a85f0ddba'"
+msgstr ""
+"external ref='figures/disabled-breakpoint.png' "
+"md5='b703d696cec0c49810de7f2a85f0ddba'"
 
 #. (itstool) path: caption/para
 #: C/index.docbook:721
@@ -1241,6 +1222,9 @@ msgid ""
 "\"PNG\"/> </imageobject> <textobject> <phrase>Illustration of a disabled "
 "breakpoint</phrase> </textobject> <_:caption-1/>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/disabled-breakpoint.png\" format="
+"\"PNG\"/> </imageobject> <textobject> <phrase>Ilustração de um ponto de "
+"interrupção desativado</phrase> </textobject> <_:caption-1/>"
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:726
@@ -1258,6 +1242,28 @@ msgid ""
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Open Source File...</"
 "guimenuitem></menuchoice>, the following window should be displayed:"
 msgstr ""
+"Às vezes, você não conhece exatamente o nome da função ou o número da linha "
+"onde você deseja que um ponto de interrupção seja definido, então você deve "
+"abrir um arquivo de origem para descobrir. Você poderia simplesmente abrir "
+"arquivos arbitrários do sistema de arquivos, mas o Nemiver também pode "
+"fornecer uma lista de arquivos fonte que foram usados para criar o "
+"executável e permitir que você selecione nessa lista. Quando você seleciona "
+"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Abrir arquivo fonte...</"
+"guimenuitem></menuchoice>, a seguinte janela deve ser exibida:"
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:739
+msgctxt "_"
+msgid ""
+"external ref='figures/open-files-target.png' "
+"md5='715003a703fc7cc112bea9e58a25f627'"
+msgstr ""
+"external ref='figures/open-files-target.png' "
+"md5='715003a703fc7cc112bea9e58a25f627'"
 
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:737
@@ -1266,6 +1272,9 @@ msgid ""
 "\"PNG\"/> </imageobject> <textobject> <phrase>Shows dialog for opening "
 "source files</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/open-files-target.png\" format="
+"\"PNG\"/> </imageobject> <textobject> <phrase>Mostra diálogo para abrir "
+"arquivos fonte</phrase> </textobject>"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:746
@@ -1275,11 +1284,15 @@ msgid ""
 "produced the executable, choose <guilabel>Select from Target Executable</"
 "guilabel>."
 msgstr ""
+"Para selecionar um arquivo arbitrário do sistema de arquivos, escolha a "
+"opção <guilabel>Selecionar do sistema de arquivos</guilabel>. Para "
+"selecionar uma lista de arquivos que produziu o executável, escolha "
+"<guilabel>Selecionar do executável destino</guilabel>."
 
 #. (itstool) path: warning/title
 #: C/index.docbook:753
 msgid "Determining Source Files for Dynamically Loaded Modules"
-msgstr ""
+msgstr "Determinando arquivos-fonte para módulos carregados dinamicamente"
 
 #. (itstool) path: warning/para
 #: C/index.docbook:754
@@ -1288,6 +1301,10 @@ msgid ""
 "<function>dlopen()</function>), Nemiver will not be able to determine which "
 "files were used to build these modules until they are actually loaded."
 msgstr ""
+"Se o executável destino carrega módulos no tempo de execução (por exemplo, "
+"usando <function>dlopen()</function>), o Nemiver não poderá determinar quais "
+"arquivos foram usados para construir esses módulos até serem realmente "
+"carregados."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:764
@@ -1302,6 +1319,24 @@ msgid ""
 "you can press <keycombo><keycap>Alt</keycap><keycap>F5</keycap></keycombo> "
 "to jump directly to the correct tab."
 msgstr ""
+"O widget de edição de registro está localizado na aba <interface>Registos</"
+"interface> da <interface>Bloco de status</interface>. Alternativamente, você "
+"pode pressionar <keycombo><keycap>Alt</keycap> <keycap>F5</keycap></"
+"keycombo> para pular diretamente para a aba correta."
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:777
+msgctxt "_"
+msgid ""
+"external ref='figures/registers-view.png' "
+"md5='25b369f4f3f0a42c04ded0f8880435ba'"
+msgstr ""
+"external ref='figures/registers-view.png' "
+"md5='25b369f4f3f0a42c04ded0f8880435ba'"
 
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:775
@@ -1310,6 +1345,9 @@ msgid ""
 "\"/> </imageobject> <textobject> <phrase>The Register Editing Widget</"
 "phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/registers-view.png\" format=\"PNG"
+"\"/> </imageobject> <textobject> <phrase>O widget de edição de registro</"
+"phrase> </textobject>"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:784
@@ -1319,6 +1357,11 @@ msgid ""
 "column and entering a new value. If the value for the register changed since "
 "the last time the debugger stopped, it will be highlighted in red."
 msgstr ""
+"Este widget mostra os valores atuais de todos os registros do CPU. Você pode "
+"editar os valores do registro clicando na coluna <interface>Valor</"
+"interface> e inserindo um novo valor. Se o valor para o registro tiver "
+"mudado desde a última vez que o depurador parou, ele será destacado em "
+"vermelho."
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:794
@@ -1327,6 +1370,21 @@ msgid ""
 "enables you to get a lower-level view of what's happening while your program "
 "is running."
 msgstr ""
+"O widget de memória permite que você visualize uma seção de memória "
+"diretamente. Isso permite que você obtenha uma visão de baixo nível do que "
+"está acontecendo enquanto o programa está sendo executado."
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:802
+msgctxt "_"
+msgid ""
+"external ref='figures/memory-view.png' md5='b2a94da383551b3eaae64ddb93a7128f'"
+msgstr ""
+"external ref='figures/memory-view.png' md5='b2a94da383551b3eaae64ddb93a7128f'"
 
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:800
@@ -1335,6 +1393,9 @@ msgid ""
 "> </imageobject> <textobject> <phrase>The Memory Editing Widget</phrase> </"
 "textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/memory-view.png\" format=\"PNG\"/"
+"> </imageobject> <textobject> <phrase>O widget de edição de memória</phrase> "
+"</textobject>"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:809
@@ -1348,6 +1409,14 @@ msgid ""
 "The memory values will automatically be updated as you step through the "
 "program."
 msgstr ""
+"Para exibir um segmento de memória no widget de visão de memória, insira um "
+"endereço de memória no campo <interface>Endereço</interface>. Se o endereço "
+"for válido para o programa que está sendo depurado, a visão de memória "
+"exibirá os valores de memória que começam no endereço especificado. Os "
+"valores de memória podem ser exibidos em formato de bytes, formato de "
+"palavra (2 bytes) ou formato de palavra longa (4 bytes) escolhendo uma opção "
+"no menu suspenso <interface>Agrupado por</interface>. Os valores da memória "
+"serão automaticamente atualizados à medida que você passar pelo programa."
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:820
@@ -1358,6 +1427,11 @@ msgid ""
 "(the right-hand section of the memory widget). All changes will be applied "
 "immediately."
 msgstr ""
+"Além de visualizar os valores de memória, você também pode usar o widget de "
+"memória para modificar valores de memória. Você pode editar a representação "
+"de bytes hexadecimal (a seção do lado esquerdo do widget de memória) ou a "
+"representação ASCII (a seção do lado direito do widget de memória). Todas as "
+"alterações serão aplicadas imediatamente."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:831
@@ -1374,6 +1448,13 @@ msgid ""
 "breakpoints are set so that you can get back to where you left off last time "
 "as quickly as possible."
 msgstr ""
+"O Nemiver pode salvar suas sessões de depuração para você, para que você "
+"possa retomá-las mais tarde. Isso inclui salvar informações como o "
+"executável que está sendo depurado, quais variáveis de ambiente estão "
+"definidas, quais opções de linha de comando são passadas para o executável, "
+"quais arquivos estão abertos e quais pontos de interrupção estão "
+"configurados para que você possa voltar para onde você deixou última vez o "
+"mais rápido possível."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:841
@@ -1389,6 +1470,11 @@ msgid ""
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Save Session To Disk</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"O Nemiver salvará sua sessão automaticamente na saída, então você nem "
+"precisa se preocupar com isso. No entanto, se quiser salvar explicitamente a "
+"sessão antes de fechar o Nemiver, pode fazê-lo selecionando "
+"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Salvar sessão para o "
+"disco</guimenuitem></menuchoice>."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:850
@@ -1401,11 +1487,28 @@ msgid ""
 "Select <menuchoice><guimenu>File</guimenu><guimenuitem>Resume Saved "
 "Session...</guimenuitem></menuchoice> and select a session from the list."
 msgstr ""
+"Selecione <menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Continuar "
+"sessão salva...</guimenuitem></menuchoice> e selecione uma sessão a partir "
+"da lista."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:859
 msgid "Session Dialog"
 msgstr "Caixa de diálogo da sessão"
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:863
+msgctxt "_"
+msgid ""
+"external ref='figures/sessions-dialog.png' "
+"md5='d07fd79198e666ca9b21fee3bbb30db4'"
+msgstr ""
+"external ref='figures/sessions-dialog.png' "
+"md5='d07fd79198e666ca9b21fee3bbb30db4'"
 
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:861
@@ -1414,6 +1517,9 @@ msgid ""
 "\"/> </imageobject> <textobject> <phrase>Shows dialog for resuming a saved "
 "session</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/sessions-dialog.png\" format=\"PNG"
+"\"/> </imageobject> <textobject> <phrase>Mostra diálogo para continuar uma "
+"sessão salva</phrase> </textobject>"
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:873
@@ -1428,6 +1534,10 @@ msgid ""
 "run session number 3, you can do so with the following command: "
 "<command>nemiver --session 3</command>."
 msgstr ""
+"Se você conhece o ID da sessão da sessão que deseja executar, você pode "
+"iniciar essa sessão de depuração a partir da linha de comando. Por exemplo, "
+"se você deseja executar a sessão número 3, pode fazê-lo com o seguinte "
+"comando: <command>nemiver --session 3</command>."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:886
@@ -1442,6 +1552,10 @@ msgid ""
 "information about Nemiver, please visit the <ulink url=\"http://www.gnome."
 "org/projects/nemiver/\" type=\"http\">Nemiver project website</ulink>."
 msgstr ""
+"<application>Nemiver</application> foi escrito por Dodji Seketeli e Jonathon "
+"Jongsma, com contribuições de muitos outros. Para encontrar mais informações "
+"sobre o Nemiver, visite o <ulink url=\"http://www.gnome.org/projects/nemiver/"
+"\" type=\"http\">site do projeto Nemiver</ulink>."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:891
@@ -1450,6 +1564,9 @@ msgid ""
 "manual, see the Feedback section of the <ulink url=\"ghelp:user-guide?"
 "feedback-bugs\" type=\"help\">GNOME User Guide</ulink>."
 msgstr ""
+"Para relatar um erro ou fazer uma sugestão sobre este aplicativo ou este "
+"manual, veja a seção Comentários do <ulink url=\"ghelp:user-guide?feedback-"
+"bugs\" type=\"help\">guia do usuário do GNOME</ulink>."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:896
@@ -1460,6 +1577,12 @@ msgid ""
 "can be found at this <ulink url=\"ghelp:gpl\" type=\"help\">link</ulink>, or "
 "in the file COPYING included with the source code of this program."
 msgstr ""
+"Este programa é distribuído sob os termos da Licença Pública Geral GNU, "
+"conforme publicado pela Free Software Foundation; quer na versão 2 da "
+"Licença, quer (a seu critério) qualquer versão posterior. Uma cópia desta "
+"licença pode ser encontrada neste <ulink url=\"ghelp:gpl\" type=\"help"
+"\">link</ulink>, ou no arquivo COPYING incluído com o código-fonte deste "
+"programa."
 
 #. (itstool) path: para/ulink
 #: C/legal.xml:9
@@ -1476,6 +1599,12 @@ msgid ""
 "of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
 "with this manual."
 msgstr ""
+"A permissão é concedida para copiar, distribuir e/ou modificar este "
+"documento nos termos da Licença de Documentação Livre GNU (GFDL), Versão 1.1 "
+"ou qualquer versão posterior publicada pela Free Software Foundation sem "
+"Seções Invariantes, sem Textos de Capa Frontal e sem Textos de Contracapa. "
+"Você pode encontrar uma cópia do GFDL neste <_:ulink-1/> ou no arquivo "
+"COPYING-DOCS distribuído com este manual."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:12
@@ -1485,6 +1614,10 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in "
 "section 6 of the license."
 msgstr ""
+"Este manual faz parte de uma coleção de manuais GNOME distribuídos sob a "
+"GFDL. Se você deseja distribuir este manual separadamente da coleção, pode "
+"fazê-lo adicionando uma cópia da licença ao manual, conforme descrito na "
+"seção 6 da licença."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:19
@@ -1495,6 +1628,11 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
+"Muitos dos nomes usados pelas empresas para distinguirem seus produtos e "
+"serviços são reivindicados como marcas registradas. Onde esses nomes "
+"aparecem em qualquer documentação do GNOME e os membros do Projeto de "
+"Documentação do GNOME são informados dessas marcas registradas, os nomes "
+"estão em letras maiúsculas ou letras maiúsculas iniciais."
 
 #. (itstool) path: listitem/para
 #: C/legal.xml:35
@@ -1521,6 +1659,28 @@ msgid ""
 "VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
 "POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
+"O DOCUMENTO É FORNECIDO “COMO ESTÁ”, SEM GARANTIA DE QUALQUER TIPO, EXPRESSA "
+"OU IMPLÍCITA, INCLUINDO, SEM LIMITAÇÃO, GARANTIAS DE QUE O DOCUMENTO OU A "
+"VERSÃO MODIFICADA DO DOCUMENTO NÃO TENHA DEFEITOS COMERCIAIS, SE ADÉQUE PARA "
+"UM PROPÓSITO ESPECÍFICO OU NÃO INFRINGIMENTO. TODO O RISCO DE QUALIDADE, "
+"PRECISÃO E DESEMPENHO DO DOCUMENTO OU VERSÃO MODIFICADA DO DOCUMENTO ESTÁ "
+"COM VOCÊ. CASO ALGUM DOCUMENTO OU VERSÃO MODIFICADA PROVOQUE FALHOU EM "
+"QUALQUER ASPECTO, VOCÊ (NÃO O ESCRITOR INICIAL, AUTOR OU QUALQUER "
+"CONTRIBUINTE) ASSUME O CUSTO DE QUALQUER MANUTENÇÃO, REPARAÇÃO OU CORREÇÃO "
+"NECESSÁRIA. ESTE AVISO DE AUSÊNCIA DE GARANTIA CONSTITUI UMA PARTE ESSENCIAL "
+"DESTA LICENÇA. NENHUM USO DE QUALQUER DOCUMENTO OU VERSÃO MODIFICADA DO "
+"DOCUMENTO É AUTORIZADA AQUI, EXCETO SOB ESTE AVISO; E SOB NENHUMA "
+"CIRCUNSTÂNCIA E SOB NENHUMA TEORIA JURÍDICA, SEJA COM DANOS (INCLUINDO "
+"NEGLIGÊNCIA), CONTRATO OU DE OUTRA FORMA, O AUTOR, ESCRITOR INICIAL, "
+"QUALQUER CONTRIBUIDOR OU QUALQUER DISTRIBUIDOR DO DOCUMENTO OU VERSÃO "
+"MODIFICADA DO DOCUMENTO OU QUALQUER FORNECEDOR DE QUALQUER DAS PARTES, SERÃO "
+"RESPONSÁVEIS POR QUALQUER PESSOA POR QUAISQUER DANOS DIRETOS, INDIRETOS, "
+"ESPECIAIS, INCIDENTAIS OU CONSEQUENCIAIS DE QUALQUER CARÁTER, INCLUINDO, SEM "
+"LIMITAÇÃO, DANOS POR PERDA DE BOA VONTADE, PARADA DE TRABALHO, FALHA DE "
+"COMPUTADOR OU MAL FUNCIONAMENTO, OU QUALQUER E TODOS OS OUTROS DANOS OU "
+"PERDAS PROVENIENTES DE OU RELACIONADOS COM O USO DO DOCUMENTO E VERSÕES "
+"MODIFICADAS DO DOCUMENTO, MESMO QUE TAL PARTE DEVE SER INFORMADA DA "
+"POSSIBILIDADE DE TAIS DANOS."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:28
@@ -1529,6 +1689,9 @@ msgid ""
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
 "<_:orderedlist-1/>"
 msgstr ""
+"O DOCUMENTO E AS VERSÕES MODIFICADAS DO DOCUMENTO SÃO FORNECIDAS SOB OS "
+"TERMOS DA LICENÇA DE DOCUMENTAÇÃO LIVRE GNU COM O ENTENDIMENTO COMPLETO QUE: "
+"<_:orderedlist-1/>"
 
 #~ msgid "C/C++ Debugger"
 #~ msgstr "Depurador C/C++"
